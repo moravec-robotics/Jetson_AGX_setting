@@ -2,11 +2,15 @@
 # Apache License 2.0
 # Copyright (c) 2019, ROBOTIS CO., LTD.
 
+
+
 echo ""
 echo "[Note] OS version  >>> Ubuntu 18.04 (Bionic Beaver) or Linux Mint 19.x"
 echo "[Note] Target ROS version >>> ROS 2 Dashing Diademata"
 echo "[Note] Colcon workspace   >>> $HOME/colcon_ws"
 echo ""
+echo "[Note] ~/.local/lib/python3.6/site-packages/ >>>> ~/.local/lib/python3.6/site_packages"
+mv ~/.local/lib/python3.6/site-packages/ ~/.local/lib/python3.6/site_packages
 
 echo "[Set the target ROS version and name of colcon workspace]"
 name_ros_version=${name_ros_version:="dashing"}
