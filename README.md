@@ -6,3 +6,5 @@ wget 'https://github.com/moravec-robotics/install_ros2_dashing/blob/main/install
 chmod +x install_ros2_dashing.sh
 ./install_ros2_dashing.sh
 ```
+### Reference
+[Link]: https://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros2_setup/#install-ros2-on-pc
