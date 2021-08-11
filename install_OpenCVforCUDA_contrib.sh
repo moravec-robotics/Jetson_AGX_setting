@@ -84,3 +84,5 @@ sudo make install
 sudo ldconfig
 make clean
 sudo apt-get update
+
+python3 -c "import cv2; print('OpenCV Version : ',cv2.__version__); print('GPU Available : ',cv2.cuda.getCudaEnabledDeviceCount())"
