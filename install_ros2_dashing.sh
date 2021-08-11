@@ -35,7 +35,7 @@ cd $HOME/$name_colcon_workspace
 colcon build --symlink-install
 
 echo "[Set the ROS evironment]"
-sh -c "echo \"alias nb='nano ~/.bashrc'\" >> ~/.bashrc"
+sh -c "echo \"alias gb='gedit ~/.bashrc'\" >> ~/.bashrc"
 sh -c "echo \"alias sb='source ~/.bashrc'\" >> ~/.bashrc"
 sh -c "echo \"alias gs='git status'\" >> ~/.bashrc"
 sh -c "echo \"alias gp='git pull'\" >> ~/.bashrc"
